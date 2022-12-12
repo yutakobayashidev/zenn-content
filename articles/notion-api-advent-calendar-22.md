@@ -98,4 +98,4 @@ https://twitter.com/yutakobayashi__/status/1568563415324696576
 https://developers.notion.com/
 
 
-明日のAdvent Calendarは**みきち@Notion×採用×インスタの人**さんです。お楽しみに。
+明日のAdvent Calendarは[みきち@Notion×採用×インスタの人](https://www.instagram.com/mikity_s_notion/)さんの「[社内にNotionをごり押し導入していった話](https://paint-study-b02.notion.site/Notion-8321f2c5e5f349df9ae76e22153e0c83)」です。お楽しみに。

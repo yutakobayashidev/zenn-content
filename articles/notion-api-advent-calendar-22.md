@@ -56,7 +56,7 @@ https://note.com/35d/n/n99ccabe87b12
 
 ## Apple Shortcuts
 
-iPhoneやMacにプリインストールされているショートカットアプリを使えばGETやPOSTなど、ウェブのリクエストを行うこともできます。それを利用してNotion APIを叩き様々なフローを作成しています。
+iOSやmacOSにプリインストールされているショートカットアプリを使えばGETやPOSTなど、ウェブのリクエストを行うこともできます。それを利用してNotion APIを叩き様々なフローを作成しています。
 
 ### Google Books APIとISBNを利用した本の登録
 
@@ -96,6 +96,8 @@ https://twitter.com/yutakobayashi__/status/1568563415324696576
 他にもNotion APIを使えばブログを作ったり、普段から利用している様々なツールとの連携が可能です。興味のある方は是非以下のページから試してみてください！
 
 https://developers.notion.com/
+
+因みにNotion APIやShazamの説明はChatGPTに書いてもらいました。Notionにも[Notion AI](https://www.notion.so/ja-jp/product/ai)というアシスタントが追加されるようなので記事執筆も楽になりそうです。
 
 
 明日のAdvent Calendarは[みきち@Notion×採用×インスタの人](https://www.instagram.com/mikity_s_notion/)さんの「[社内にNotionをごり押し導入していった話](https://paint-study-b02.notion.site/Notion-8321f2c5e5f349df9ae76e22153e0c83)」です。お楽しみに。

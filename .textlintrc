@@ -8,17 +8,18 @@
     "preset-ja-technical-writing": {
         "no-exclamation-question-mark": {
         "allowFullWidthExclamation": true,
-        "allowFullWidthQuestion": true,
+        "allowFullWidthQuestion": true
       },
+      "ja-no-weak-phrase": false,
       "no-doubled-joshi": {
          "strict": false,
-         "allow": ["か"], // 助詞のうち「か」は複数回の出現を許す(e.g.: するかどうか)
+         "allow": ["か"]
       }
     },
     "preset-ja-spacing": {
       "ja-space-between-half-and-full-width": {
-        space: "always",
-        exceptPunctuation: true,
+        "space": "always",
+        "exceptPunctuation": true
       },
       "ja-space-around-code": {
         "before": true,
@@ -26,8 +27,13 @@
       }
     },
     "ja-technical-writing/ja-no-mixed-period": {
-      "allowPeriodMarks": [":"],
+      "allowPeriodMarks": [":","笑", "…", "🙏"]
     },
-    "ja-technical-writing/sentence-length": false //100文字数制限の無効化
+    "ja-technical-writing/sentence-length": false
+  },
+  "filters": {
+    "allowlist": {
+      "allow": ["/\\$\\$[\\s\\S]*?\\$\\$/m"]
+    }
   }
 }

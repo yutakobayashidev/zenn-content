@@ -1,19 +1,26 @@
 {
   "plugins": {
     "@textlint/markdown": {
-      "extensions": [".md"]
+      "extensions": [
+        ".md"
+      ]
     }
   },
   "rules": {
     "preset-ja-technical-writing": {
-        "no-exclamation-question-mark": {
-        "allowFullWidthExclamation": true,
-        "allowFullWidthQuestion": true
+      "ja-no-successive-word": {
+        "allow": [
+          "〇",
+          "△"
+        ]
       },
+      "no-exclamation-question-mark": false,
       "ja-no-weak-phrase": false,
       "no-doubled-joshi": {
-         "strict": false,
-         "allow": ["か"]
+        "strict": false,
+        "allow": [
+          "か"
+        ]
       }
     },
     "preset-ja-spacing": {
@@ -27,13 +34,20 @@
       }
     },
     "ja-technical-writing/ja-no-mixed-period": {
-      "allowPeriodMarks": [":","笑", "…", "🙏"]
+      "allowPeriodMarks": [
+        ":",
+        "笑",
+        "…",
+        "🙏"
+      ]
     },
     "ja-technical-writing/sentence-length": false
   },
   "filters": {
     "allowlist": {
-      "allow": ["/\\$\\$[\\s\\S]*?\\$\\$/m"]
+      "allow": [
+        "/\\$\\$[\\s\\S]*?\\$\\$/m"
+      ]
     }
   }
 }

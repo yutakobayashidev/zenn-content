@@ -1,6 +1,6 @@
 ---
 title: "discord.pyでサーバーのオンラインユーザー数の変化を分析してみた"
-emoji: "📈"
+emoji: "📊"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["python", "discordpy", "matplotlib"]
 published: true

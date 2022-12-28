@@ -15,7 +15,7 @@ published: true
 ![Discord Developers Portal](/images/discord-online-members-chart/discord-bot-create.jpg)
 
 :::message
-既に BOT をサーバーに招待済みであれば、次のセクションに進んでください。
+既に BOT をサーバーに招待済みであれば、次の[セクション](#discord.py-のインストールと-bot-の起動)に進んでください。
 :::
 
 BOT アカウントを作成し、サーバーに招待することで、Discord サーバーでの情報収集を開始できます。BOT アカウントの作成には Discord Developer Portal を利用します。

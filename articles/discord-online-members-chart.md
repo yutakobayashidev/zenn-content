@@ -101,7 +101,7 @@ if not os.path.exists(csv_path):
 
 @client.event
 async def on_ready():
-    # ボットが起動したことを表示
+    # BOTが起動したことを表示
     print("Bot is active")
 
     # 無限ループ
@@ -134,7 +134,7 @@ async def on_ready():
         # 30分待つ
         await asyncio.sleep(1800)
 
-# ボットを起動
+# BOTを起動
 client.run(bot_token)
 ```
 

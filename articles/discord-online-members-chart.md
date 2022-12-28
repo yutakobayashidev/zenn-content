@@ -3,7 +3,7 @@ title: "discord.pyでサーバーのオンラインユーザー数の変化を�
 emoji: "📈"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["python", "discordpy", "matplotlib"]
-published: tue
+published: true
 ---
 
 最適なオンラインイベント開催時間を見つけるために、Discord サーバーのオンラインユーザー数の変化を収集する必要がありました。

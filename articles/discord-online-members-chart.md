@@ -138,7 +138,7 @@ async def on_ready():
 client.run(bot_token)
 ```
 
-`members_count` を含めている理由は Discord サーバーの合計メンバー自体が変動するためグラフ化する際に online_count から members_count の割合を計算するためです。また、BOT はカウントから除外しています。
+`members_count` を含めている理由は Discord サーバーの合計メンバー自体が変動するためグラフ化する際にmembers_countに対するonline_countの割合を計算するためです。また、BOT はカウントから除外しています。
 
 ## matplotlib で折れ線グラフを作成
 

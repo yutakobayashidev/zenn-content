@@ -177,7 +177,7 @@ plt.xticks(rotation=45)
 plt.grid()
 
 # y軸にラベルを追加する
-plt.ylabel("Ratio of online members to total members (percent)"")
+plt.ylabel("Ratio of online members to total members (percent)")
 
 # グラフを表示する
 plt.show()

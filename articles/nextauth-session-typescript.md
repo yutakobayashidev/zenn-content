@@ -1,5 +1,5 @@
 ---
-title: "Auth.js (Next.js)でユーザー情報を追加した際のTypeScriptの型エラーについて"
+title: "Auth.js (Next.js)でセッション情報を追加した際のTypeScriptの型エラーについて"
 emoji: "🐛"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["nextjs", "nextauth", "typescript"]
@@ -28,6 +28,8 @@ export const authOptions: NextAuthOptions = {
   ],
   secret: process.env.NEXTAUTH_SECRET,
 }
+
+export default NextAuth(authOptions)
 ```
 
 しかしこうした場合、Next Auth の型が追加されていないため、型エラーが発生しました。

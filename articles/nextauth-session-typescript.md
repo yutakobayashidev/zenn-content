@@ -39,7 +39,7 @@ export const authOptions: NextAuthOptions = {
 Property 'id' does not exist on type '{ name?: string | null | undefined; email?: string | null | undefined; image?: string | null | undefined; }'.
 ```
 
-そのため、[公式ドキュメント](https://next-auth.js.org/getting-started/typescript#module-augmentation)を参照した所、型を拡張する必要があります。`types/next-auth.d.ts` に新たにファイルを作成し、以下のように指定します。
+そのため、[公式ドキュメント](https://next-auth.js.org/getting-started/typescript#module-augmentation)を参照した所、型を拡張する必要が分かりました。`types/next-auth.d.ts` に新たにファイルを作成し、以下のように指定します。
 
 ```ts:next-auth.d.ts
 import NextAuth from "next-auth"

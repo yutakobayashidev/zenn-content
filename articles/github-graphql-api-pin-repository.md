@@ -127,7 +127,7 @@ const { user } = await octokit(
             ]
           }
         }
-        /// ... 省略
+        // ... 省略
       ]
     }
   }

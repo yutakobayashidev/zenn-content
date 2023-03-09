@@ -2,7 +2,7 @@
 title: "Next.jsでGitHub GraphQL APIを使用してピンしたリポジトリを取得する"
 emoji: "📌"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["nextjs", "githubapi", "qraphqL"]
+topics: ["nextjs", "githubapi", "graphql"]
 published: true
 ---
 

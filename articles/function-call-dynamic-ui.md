@@ -26,7 +26,7 @@ https://openai.com/blog/function-calling-and-other-api-updates
 
 https://github.com/yutakobayashidev/sandbox/tree/main/workspaces/chatgpt-dynamic-design
 
-## Vercel AI SDK をインストールする
+### Vercel AI SDK をインストールする
 
 Vercel AI SDK は Edge 環境で OpenAI の API を扱いやすくするためのラッパーです。他には、LangChain、Anthropic、Cohere、Fireworks、Hugging Inference API などなどにも対応しています。
 
@@ -44,7 +44,7 @@ https://twitter.com/jrsyo/status/1641670036317417473
 bun i openai ai
 ```
 
-## Function を定義する
+### Function を定義する
 
 `functions.ts`などのファイルに、JSON スキーマ形式で Function の説明を定義し、実際の Function も定義します。
 
@@ -145,7 +145,7 @@ async function get_country_info(country_code: string) {
 }
 ```
 
-## API を作る
+### API を作る
 
 先程定義した Function と Vercel AI SDK で Edge で動く API を作ります。実際に使う場合は Redis などでキャッシュやレート制限を持たせてください。
 
@@ -212,7 +212,7 @@ export async function POST(req: Request) {
 }
 ```
 
-## クライアント側
+### クライアント側
 
 あとはクライアント側のコンポーネントを実装するだけです。
 

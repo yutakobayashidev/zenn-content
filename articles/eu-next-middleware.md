@@ -2,7 +2,7 @@
 title: "Next.js + VercelのMiddlewareでEUからのアクセスをブロックする"
 emoji: "🇪🇺"
 type: "tech"
-topics: ["next"]
+topics: ["next", "gdpr"]
 published: true
 ---
 

@@ -6,7 +6,7 @@ topics: ["next"]
 published: true
 ---
 
-Next.js で GDPR などの対応で EU 圏内からのアクセスをブロックしたい事例がありました。それを Middleware で実装したのでその備忘録です。
+Next.js + Vercel の構成で GDPR などの対応で EU 圏内からのアクセスをブロックしたい事例がありました。それを Middleware で実装したのでその備忘録です。
 
 ## 1. ブロックされた時に表示されるページを作る
 

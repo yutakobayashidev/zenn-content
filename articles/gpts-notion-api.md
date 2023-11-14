@@ -34,7 +34,7 @@ Notion API を叩く際には、headers に、`Notion-Version`をセットし、
 
 しかし、ChatGPT の Web UI 上では Authentication ヘッダーしか追加できません。
 
-そこで、CloudFlare Wokers を使ってリバースプロキシを作ることにしました。
+そこで、Cloudflare Workers を使ってリバースプロキシを作ることにしました。
 
 ```
 https://reverse-proxy.yutakobayashi.workers.dev/<url>

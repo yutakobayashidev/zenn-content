@@ -54,7 +54,7 @@ https://reverse-proxy.yutakobayashi.workers.dev/<url>
 
 https://github.com/yutakobayashidev/workers/blob/main/workers/reverse-proxy/src/index.ts
 
-## 3. GPTs の設定
+### 3. GPTs の設定
 
 GPTs の設定画面の Configure から、下から二番目の Actions を選択します。
 

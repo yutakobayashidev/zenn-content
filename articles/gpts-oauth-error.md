@@ -20,13 +20,13 @@ ChatGPT の新機能、GPTs では、OAuth 認証を実装でき、ユーザー�
 
 https://zenn.dev/yutakobayashi/articles/gpts-notion-api
 
-## “Auth URL, Token URL and API hostname must share a root domain”
+## Auth URL, Token URL and API hostname must share a root domain
 
 OAuth の構成を保存しようとした際にこのエラーが発生しました。
 
 これは要するに、OpenAPI スキーマの servers の url と、Authorization URL、Token URL の各ルートドメインを揃える必要があるというわけです。
 
-![<html id="__next_error__">](/images/gpts-oauth/3dfbc867fc26fc62f7d9554551eda87ff4a6299d.png)
+![“Auth URL, Token URL and API hostname must share a root domain”](/images/gpts-oauth-error/3dfbc867fc26fc62f7d9554551eda87ff4a6299d.png)
 
 正直とてもこれはハードですよね。
 

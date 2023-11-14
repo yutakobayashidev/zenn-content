@@ -22,7 +22,7 @@ Notion は、[API](https://developers.notion.com/) が公開されています�
 
 **追記：**
 
-OAuth 認証 を使ってノーコードで使用できる GPTs を新しく作りました。
+OAuth を使ってノーコードで使用できる GPTs を新しく作りました。
 
 ChatGPT のウェブクライアントからログインするだけで Notion ワークスペースを検索することができます。
 
@@ -34,7 +34,7 @@ https://twitter.com/yutakobayashi__/status/1724481251783139805
 https://community.openai.com/t/error-couldnt-log-in-with-plugin/386433
 :::
 
-## やりかた
+## Internal API でやる場合のやりかた
 
 ### 1. API キーの発行とコネクトの追加
 

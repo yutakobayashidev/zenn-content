@@ -22,11 +22,17 @@ Notion は、[API](https://developers.notion.com/) が公開されています�
 
 **追記：**
 
-OAuth を使ってノーコードで使用できる GPTs を新しく作りました。
+OAuth 認証 を使ってノーコードで使用できる GPTs を新しく作りました。
 
-ChatGPT 側の不具合でログイン後プラグインのページに飛んでしまうことがありますが、ログアウトやシークレットモードの使用で解決することがあります。
+ChatGPT のウェブクライアントからログインするだけで Notion ワークスペースを検索することができます。
 
-https://chat.openai.com/g/g-EkEzOXpHq-notion-fei-gong-shi
+https://twitter.com/yutakobayashi__/status/1724481251783139805
+
+:::message
+ログイン後に「Couldn't log in with plugin.」というエラーが出た場合は、言語設定を `en-US` にすると直る事が多いです。
+
+https://community.openai.com/t/error-couldnt-log-in-with-plugin/386433
+:::
 
 ## やりかた
 

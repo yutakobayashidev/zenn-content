@@ -80,7 +80,7 @@ Client Secret: 各自
 
 ## Couldn't log in with plugin.
 
-ログイン後、callback url で OpenAI のウェブサイトに戻った際に「**Couldn't log in with plugin.」**エラーが頻繁に発生しました。
+ログイン後、callback url で OpenAI のウェブサイトに戻った際に「**Couldn't log in with plugin.**」エラーが頻繁に発生しました。
 
 調べているとこれはどうやらこれは ChatGPT のバグのようで、言語設定を`en-US`にすると直りました。
 

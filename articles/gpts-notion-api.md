@@ -18,6 +18,16 @@ https://www.youtube.com/watch?v=U9mJuUkhUzk
 
 Notion は、[API](https://developers.notion.com/) が公開されています。そこで、Notion API の OpenAPI スキーマを書き実際に試してみました。
 
+---
+
+**追記：**
+
+OAuth を使ってノーコードで使用できる GPTs を新しく作りました。
+
+ChatGPT 側の不具合でログイン後プラグインのページに飛んでしまうことがありますが、ログアウトやシークレットモードの使用で解決することがあります。
+
+https://chat.openai.com/g/g-EkEzOXpHq-notion-fei-gong-shi
+
 ## やりかた
 
 ### 1. API キーの発行とコネクトの追加
@@ -44,7 +54,7 @@ https://reverse-proxy.yutakobayashi.workers.dev/<url>
 
 https://github.com/yutakobayashidev/workers/blob/main/workers/reverse-proxy/src/index.ts
 
-## GPTs の設定
+## 3. GPTs の設定
 
 GPTs の設定画面の Configure から、下から二番目の Actions を選択します。
 

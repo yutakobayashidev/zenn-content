@@ -95,7 +95,9 @@ OpenAPI のスキーマとして、例として今回は以下のような記載
       "get": {
         "description": "Retrieve children of a block",
         "operationId": "getBlockChildren",
-        "tags": ["Blocks"],
+        "tags": [
+          "Blocks"
+        ],
         "parameters": [
           {
             "name": "block_id",
@@ -133,7 +135,9 @@ OpenAPI のスキーマとして、例として今回は以下のような記載
                   "properties": {
                     "object": {
                       "type": "string",
-                      "enum": ["list"]
+                      "enum": [
+                        "list"
+                      ]
                     },
                     "results": {
                       "type": "array",
@@ -174,7 +178,9 @@ OpenAPI のスキーマとして、例として今回は以下のような記載
       "post": {
         "description": "Search across all pages and databases",
         "operationId": "search",
-        "tags": ["Search"],
+        "tags": [
+          "Search"
+        ],
         "requestBody": {
           "required": true,
           "content": {
@@ -191,7 +197,10 @@ OpenAPI のスキーマとして、例として今回は以下のような記載
                     "properties": {
                       "direction": {
                         "type": "string",
-                        "enum": ["ascending", "descending"]
+                        "enum": [
+                          "ascending",
+                          "descending"
+                        ]
                       },
                       "timestamp": {
                         "type": "string"
@@ -216,7 +225,9 @@ OpenAPI のスキーマとして、例として今回は以下のような記載
                     "type": "integer"
                   }
                 },
-                "required": ["query"]
+                "required": [
+                  "query"
+                ]
               }
             }
           }
@@ -251,6 +262,101 @@ OpenAPI のスキーマとして、例として今回は以下のような記載
           },
           "401": {
             "description": "Unauthorized"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/v1/databases/{database_id}/query": {
+      "post": {
+        "description": "Query a database",
+        "operationId": "queryDatabase",
+        "tags": [
+          "Databases"
+        ],
+        "parameters": [
+          {
+            "name": "database_id",
+            "in": "path",
+            "required": true,
+            "description": "ID of the database to query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "filter": {
+                    "type": "object",
+                    "description": "Filter conditions for the query"
+                  },
+                  "sorts": {
+                    "type": "array",
+                    "items": {
+                      "type": "object"
+                    }
+                  },
+                  "start_cursor": {
+                    "type": "string"
+                  },
+                  "page_size": {
+                    "type": "integer"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "object": {
+                      "type": "string",
+                      "enum": [
+                        "list"
+                      ]
+                    },
+                    "results": {
+                      "type": "array",
+                      "items": {
+                        "type": "object"
+                      }
+                    },
+                    "next_cursor": {
+                      "type": "string"
+                    },
+                    "has_more": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "429": {
+            "description": "Too Many Requests"
           },
           "500": {
             "description": "Internal Server Error"

@@ -16,7 +16,7 @@ https://www.youtube.com/watch?v=U9mJuUkhUzk
 
 ## デモ
 
-Notion は、[API](https://developers.notion.com/) が公開されています。OpenAPI スキーマを書いて検索、データベースクエリ、ブロックの読み取りエンドポイントを覚えさせ、実際に GPTs に叩かせてみました。
+Notion は、[API](https://developers.notion.com/) と呼ばれる開発者が Notion のデータを操作し、外部アプリケーションやサービスと連携するための機能が公開されています。そこで、Notion API の OpenAPI スキーマを書いて検索、データベースクエリ、ブロックの読み取りエンドポイントを覚えさせ、実際に GPTs に叩かせてみました。
 
 ユーザーのプロンプトを元にエンドポイントを使い分けてくれてるのが分かると思います。プロンプト次第では一回のクエリにとどまらず複数回のクエリで答えを探そうとし出します。
 

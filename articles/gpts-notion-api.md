@@ -42,7 +42,7 @@ https://twitter.com/yutakobayashi__/status/1724481251783139805
 https://community.openai.com/t/error-couldnt-log-in-with-plugin/386433
 :::
 
-## Internal API でやる場合のやりかた
+## Internal API を使う場合のやりかた
 
 ### 1. API キーの発行とコネクトの追加
 
@@ -403,6 +403,4 @@ GPT は、Notion データベースから正確で文脈に沿った情報を提
 
 {AI が考える概要}
 
-
-```
 ````

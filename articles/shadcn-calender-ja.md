@@ -1,5 +1,5 @@
 ---
-title: "Shadcn UIのカレンダーコンポーネントを日本向けにローカライズする"
+title: "shadcn/uiのカレンダーコンポーネントを日本向けにローカライズする"
 emoji: "📅"
 type: "tech"
 topics: ["shadcnui", "react"]
@@ -72,7 +72,7 @@ function Calendar({
 
 このまま日本語化するだけだと、年と日付のラベルが「11 月 2023 年」のように、日本人からすると馴染みのない順番の表記になってしまいます。
 
-これを修正するには、date-fns でフォーマットを整えたものを formatters に渡すだけです。
+これを修正するには、`date-fns` でフォーマットを整えたものを `formatters` props に渡すだけです。
 
 ```tsx
 import { format } from "date-fns";

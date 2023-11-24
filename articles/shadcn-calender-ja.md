@@ -3,7 +3,7 @@ title: "Shadcn UIのカレンダーコンポーネントを日本向けにロー
 emoji: "📅"
 type: "tech"
 topics: ["shadcnui", "react"]
-published: false
+published: true
 ---
 
 Shadcn UI のカレンダーコンポーネントは、`react-day-picker`というパッケージに依存しています。このカレンダーコンポーネントを日本語化する方法についてです。

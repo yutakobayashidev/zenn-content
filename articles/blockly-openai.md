@@ -14,7 +14,9 @@ published: true
 
 しかし、ブロックプログラミングは初学者が理解するのに時間がかかり、コードベースのプログラミングへの移行に障壁が存在することがわかりました。私自身も小学生の頃にScratchを使い始め、コードベースのプログラミングへ移行するまでには時間がかかりました。
 
-この問題に対処するため、BlocklyとOpenAIを利用したAIブロックプログラミングアシスタントの開発に着手しました。BlocklyはScratchブロックのベースに使用されています。
+この問題に対処するため、BlocklyとOpenAIを利用したAIブロックプログラミングアシスタントの開発に着手しました。BlocklyはGoogleが開発しているビジュアルプログラミングエディタでScratchブロックのベースに使用されています。
+
+https://developers.google.com/blockly?hl=ja
 
 
 [CreatiCode Scratch](https://community.openai.com/t/creaticode-scratch-plugin-enable-chatgpt-for-block-based-coding/193493)のChatGPTプラグインなどから多くのインスピレーションを得ました。

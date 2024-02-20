@@ -104,7 +104,7 @@ iOS や iPadOS、MacOS にはビルトインでショートカットと呼ばれ
 これを使って Eagle に画像をアップロードすることができます。共有シートから呼びせばすぐに保存できます。便利ですね。
 
 以下からショートカットをダウンロードできます ↓
-https://www.icloud.com/shortcuts/ff4b991b606b47dcbc41354f8bd13b8e
+https://www.icloud.com/shortcuts/e754acf863db4a678febcd680ba29298
 
 ---
 

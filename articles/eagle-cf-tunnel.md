@@ -2,7 +2,7 @@
 title: "別の端末からEagleに画像を送信して快適にライブラリを更新する (Cloudflare Tunnel) "
 emoji: "🖼️"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["cloudflare", "eagle", "ショートカット"]
+topics: ["cloudflare", "eagle", "iosショートカット"]
 published: true
 ---
 

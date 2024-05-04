@@ -85,4 +85,4 @@ export default process.env.LOCAL_DB_PATH
     } satisfies Config);
 ```
 
-これで、npm スクリプトによって接続先を切り替えれるようになりました。
+これで、npm スクリプトによって接続先を切り替えられるようになりました。
